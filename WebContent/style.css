@@ -1,0 +1,130 @@
+*{
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.wrap {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.form-wrap {
+    width: 380px;
+    height: 800px;
+    position: relative;
+    margin: 5% 10% 0 75%;
+    background:#fff;
+    opacity: 0.9;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 12px;
+}
+.button-wrap {
+    width: 230px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 600px 9px #fcae8f;
+    border-radius: 30px;
+}
+.togglebtn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, hotpink, yellow);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons {
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img {
+    width: 30px ;
+    cursor: pointer;
+}
+.input-group {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, hotpink, yellow);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkbox {
+    margin: 30px 10px 30px 0;
+    display: inline-block;
+}
+.checkbox_ex {
+    color: #fff;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+.radio_ex{
+    color: #fff;
+    font-size: 14px;
+    padding-right: 8px;
+}
+.select-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: none;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    
+}
+#login {
+    left: 50px;
+}
+#register {
+    left: 450px;
+}
+canvas{
+    background-color: slateblue;
+    z-index: 1;
+}

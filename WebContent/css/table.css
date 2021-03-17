@@ -1,0 +1,58 @@
+.tg
+{   width: 100%;
+    border-color:#aaa;
+    border-spacing:0;
+    border-collapse: collapse;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.tg td
+{   
+    /* background-color:#fff; */
+    border-color:#aaa;
+    border-style:solid;
+    border-width:1px;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;}
+    .tg th
+    {background-color:#f38630;
+        border-color:#aaa;
+        border-style:solid;
+        border-width:1px;
+        color:#fff;
+        font-family:Arial, sans-serif;font-size:14px;
+        font-weight:normal;
+        overflow:hidden;
+        padding:10px 5px;
+        word-break:normal;}
+        .tg .tg-s3eb
+        {background-color:floralwhite;border-color:#ffffff;color:#000000;text-align:center;vertical-align:top}
+        .tg .tg-u2hj
+        {background-color:tan;border-color:#ffffff;color:#ffffff;text-align:center;vertical-align:top}
+        .tg .tg-3yw0
+        {background-color:floralwhite;border-color:#ffffff;color:#000000;text-align:center;vertical-align:top}
+        
+        .posts-list{
+            height: 1310px;
+        }
+        .rank-list{
+            border-radius: 15px;
+        }
+        .rank-list-e .dal{
+            display: flex;
+            justify-content: center;
+        }
+        .medal{
+            width: 30px;
+            height: 30px;
+        }
+        .medal img{
+    width: 100%;
+    height: 100%;
+}
